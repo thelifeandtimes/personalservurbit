@@ -21,13 +21,13 @@ This repository is the documentation of my personal server journey for the end g
 
 ### Related Guides and skills
 Tentative list of guides that I have heard exist and need to compile, review, understand, and adapt:
-- Minio for S3 Buckets
-- Bitcoind setup
-- elect.rs setup
-- bitcoin provider setup
-- bitcoin wallet setup
-- urbit.org documentation
+- Minio for S3 Buckets - https://www.notion.so/MinIO-S3-Urbit-a18a584293b3459e8785339e60145b11
+- bitcoinD daemon - https://howchoo.com/bitcoin/run-bitcoin-full-node-raspberry-pi
+- Bitcoind and elect.rs setup - https://subject.network/posts/pi-fullnode-urbit/
+- bitcoin provider and wallet setup
+- urbit.org documentation - https://urbit.org/docs/
 - understanding SSH
-- Smol Computer guide
+- Smol Computer guide - https://bit.ly/smol-guide-rpi4
+- accessing landscape with ssh - ~dasfeb/smol-bibliotheca/note/170141184504960759844397365188420960256
 - detaching and reattaching terminal screens
 - and any number of things I will continue to add to this list.
