@@ -2,3 +2,4 @@ As the urbit's hosted on my Digital Ocean droplet use a static caddyfile for man
 1. ~tocwex (bound to port 8080)
 2. ~sarlev-sarsen (bound to port 8081)
 3. ~lismyl-lismyl (bound to port 8082)
+As my caddyfile lives in the home directory, to start caddy, use `caddy start --config ~/Caddyfile` and caddy will start and run in the background.
