@@ -12,7 +12,7 @@ Unfortunately it takes a decent amount of memory to properly run so depending on
 4. Uncompress the tarball with the command `tar -xzvf sampel-palnet.tar.gz`
 5. Run your urbit worker process using `./urbit-worker meld sampel-palnet`
 6. Delete the old, unmelded tarball by running `rm -rf sampel-palnet.tar.gz`
-7. Recreate a tarball of your newly melded peir with the command `tar -czvf sampel-palnet.tar.gz /path/to/pier`
+7. Recreate a tarball of your newly melded pier with the command `tar -czvf sampel-palnet.tar.gz /path/to/pier`
 
 ## While ssh'd into your VPS
 8. Delete your old, unmelded pier by running `rm -rf sampel-palnet` in your urbit directory.
