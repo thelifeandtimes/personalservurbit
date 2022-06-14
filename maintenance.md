@@ -1,6 +1,6 @@
 # Melding a pier
 
-`meld` is a tool from `urbit-worker` that deduplicates persistent state. It is run by using the following command: `./urbit-worker meld <pier>` 
+`meld` is a tool from `urbit` that deduplicates persistent state. It is run by using the following command: `./urbit meld <pier>`. This functionality used to live in a separate program called `urbit-worker` but as of version 1.9 of the binaries it now lives directly within `urbit`
 Unfortunately it takes a decent amount of memory to properly run so depending on the resources on your VPS, you may need to pull it down to a local machine, run meld locally, and then push your pier back up to the cloud server. The steps to do this are as follow:
 
 ## While ssh'd into your VPS
@@ -10,7 +10,7 @@ Unfortunately it takes a decent amount of memory to properly run so depending on
 ## On a terminal for your local machine, from your `/urbit` directory
 3. Securely copy files from your VPS using the following command `scp remote_username@10.10.0.2:~/urbit/sampel-palnet.tar.gz ~/urbit`
 4. Uncompress the tarball with the command `tar -xzvf sampel-palnet.tar.gz`
-5. Run your urbit worker process using `./urbit-worker meld sampel-palnet`
+5. Run your urbit worker process using `./urbit meld sampel-palnet`
 6. Delete the old, unmelded tarball by running `rm -rf sampel-palnet.tar.gz`
 7. Recreate a tarball of your newly melded pier with the command `tar -czvf sampel-palnet.tar.gz /path/to/pier`
 
